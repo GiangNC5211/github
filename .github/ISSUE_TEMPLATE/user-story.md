@@ -1,0 +1,110 @@
+---
+name: User Story
+about: This template is using for create user story of project. If this doesn't look
+  right, choose a different type.
+title: ":star:"
+labels: ''
+assignees: ''
+
+---
+
+# User stories
+
+A user story is implemented as well as it is communicated.
+If the context and the goals are made clear, it will be easier for everyone to implement it, test it, refer to it…
+
+---
+
+Quick links: [Summary](#summary) | [Description](#description) | [Acceptance Criteria](#acceptance-criteria) | [Resources](#resources) | [Notes](#notes) | [Tasks](#tasks) 
+
+---
+
+## Summary <a href="#summary" id="summary">#</a>
+
+1. **As a** [user concerned by the story]
+2. **I want** [goal of the story]
+3. **so that** [reason for the story]
+
+## Description <a href="#description" id="description">#</a>
+
+All the informations to describe the user story we want to build
+
+## Acceptance Criteria <a href="#acceptance-criteria" id="acceptance-criteria">#</a>
+
+1. [If I do A.]
+2. [B should happen.]
+
+[
+Also, here are a few points that need to be addressed:
+
+1. Constraint 1;
+1. Constraint 2;
+1. Constraint 3.
+]
+
+## Resources <a href="#resources" id="resources">#</a>
+
+* Mockups: [Here goes a URL to or the name of the mockup(s) in Figma];
+* Testing URL: [Here goes a URL to the testing branch or IP];
+* Staging URL: [Here goes a URL to the feature on staging];
+
+## Notes <a href="#notes" id="notes">#</a>
+
+* Here goes a quote from an email of customer
+* Here goes whatever useful information can exist
+
+## Sprint Ready Checklist
+- Acceptance criteria defined 
+- Team understands acceptance criteria 
+- Team has defined solution / steps to satisfy acceptance criteria 
+- Acceptance criteria is verifiable / testable 
+- External / 3rd Party dependencies identified
+
+## Tasks <a href="#tasks" id="tasks">#</a>:
+- [ ] [BE] Create API contract and define e2e test case.
+- [x] [BE] API implements. 
+- [x] [WC] Create State contract and define unit test case.
+- [x] [WC] Implement UI
+- [x] [WC] Mapping API contract. 
+- [x] [WA] Implement UI
+- [x] [WA] Create State contract and define unit test case.
+- [x] [WA] Mapping API contract.
+- [ ] [QA] Verify e2e test case from BE.
+- [ ] [QA] Manual testing WC
+- [ ] [QA] Manual testing WA
+- [ ] [QA] Create check list
+
+### Example <a href="#example" id="example">#</a>
+<--- Delete this sections after create issue, only for example to write user story --->
+
+```markdown
+### Summary:
+**As a** a user,
+**I want** login to system
+**so that** I can use system.
+
+### Descriptions:
+We need to build function user can login using:
+1. Email and password
+2. Facebook
+3. Google
+
+### Acceptance Criteria
+1. If user click button login, login form will show up 
+2. If user login using email and password....
+    1. Email is valid
+    2. Password is normal case, upper case, number, min is 8, max is 15 characters
+    3. Form validate field input immediately when user lose focus on input fields.
+4. If User login using facebook....
+5. If User login success using Google....
+6. Redirect to Home page after login success.
+
+### Resources:
+1. Figma link url here.
+2. Sample website link here.
+
+### Notes:
+
+1. If we have more login method to add in it should be documented within that issue (not in the comments) and notify
+to all team to know, and create a new ticket for team implements
+```
